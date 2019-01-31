@@ -1,20 +1,17 @@
 {
-  "name": "HerokuTest",
+  "name": "starwars-express",
   "version": "1.0.0",
   "description": "",
-  "main": "testing.js",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EliCas5931/HerokuTest.git"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EliCas5931/HerokuTest/issues"
-  },
-  "homepage": "https://github.com/EliCas5931/HerokuTest#readme"
+  "license": "ISC"
 }
